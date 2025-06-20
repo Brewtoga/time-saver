@@ -1,8 +1,8 @@
 import './App.css'
-import { Amplify } from 'aws-amplify'
+// import { Amplify } from 'aws-amplify'
 
 function App() {
-console.log(Amplify)
+// console.log(Amplify)
   return (
     <>
       <h1>Vite + React</h1>

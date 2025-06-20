@@ -7,8 +7,8 @@ function App() {
       {({ signOut, user }) => (
         <main>
           <h1>Vite + React</h1>
-          <h2>By gdawg</h2>
-          <p>Hello {user.username}!</p>
+          <h2>By gdawg - Authenticated!</h2>
+          <p>Welcome {user.username}!</p>
           <button onClick={signOut}>Sign out</button>
         </main>
       )}
